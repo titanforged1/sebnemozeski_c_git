@@ -86,3 +86,4 @@ echo "merhaba dünya" > test.txt
 ---
 
 Bu proje [CodeCrafters - Build Your Own Git](https://codecrafters.io) zorluğu temel alınarak, Git'in iç mimarisini öğrenmek amacıyla geliştirilmiştir.
+(son task olan 'clone' yapılmamıştır.)
