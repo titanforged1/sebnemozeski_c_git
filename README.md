@@ -80,7 +80,6 @@ echo "merhaba dünya" > test.txt
 
 - Tree objelerinin boyutu şu an sabit bir buffer'a (`1024*1024`) yazılıyor — çok büyük dizinlerde taşma riski var, dinamik büyüyen bir buffer'a geçmek bir sonraki adım.
 - `cat-file` ve `ls-tree` da benzer şekilde sabit boyutlu (`1024*1024`) açma buffer'ı kullanıyor.
-- `commit-tree`'deki format string'inde küçük bir typo var (`\nauthor` yerine `nauthor` yazılmış) — bu satır gözden geçirilmeli.
 - Şu an sadece tek parent destekleniyor (merge commit'ler için çoklu parent yok).
 
 ---
